@@ -47,13 +47,13 @@ public class MainPanel extends JPanel implements MouseListener, MouseMotionListe
 			g.setColor(Color.darkGray);
 			g.drawRect(x, y, 20, 20);
 		}
-		if (v == 1) {
+		if (v == 1) {//黑棋
 			g.setColor(Color.gray);
 			g.drawOval(x - 8, y - 8, 16, 16);
 			g.setColor(Color.black);
 			g.fillOval(x - 8, y - 8, 16, 16);
 		}
-		if (v == 2) {
+		if (v == 2) {//白棋
 			g.setColor(Color.gray);
 			g.drawOval(x - 8, y - 8, 16, 16);
 			g.setColor(Color.white);
